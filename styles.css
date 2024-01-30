@@ -6,7 +6,7 @@ body {
     justify-content: space-evenly;
     height: 100vh;
     margin: 0;
-    background: url('images/bg-image.jpg') repeat;
+    background: url('https://raw.githubusercontent.com/IAmThePSL/ValentinesSite/main/bg-image.jpg') repeat;
     font-size: 35px;
     color: rgb(255, 0, 174);
 }
