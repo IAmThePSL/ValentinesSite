@@ -9,7 +9,7 @@ function showMessage(response) {
       noButton.style.position = "absolute";
 
       // Change image source to "gun.gif"
-      document.getElementsByClassName("image")[0].src = "images/gun.gif"
+      document.getElementsByClassName("image")[0].src = "https://github.com/IAmThePSL/ValentinesSite/blob/main/gun.gif"
 
       // Generate random coordinates within the visible container
       const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
@@ -37,7 +37,7 @@ function showMessage(response) {
         yesMessage.textContent = "LESGOOO ik zie je de 14de schat😘😘"
         yesMessage.style.display = "block";
         yesMessage.style.fontStyle = "normal";
-        document.getElementsByClassName("image")[0].src = "images/dance.gif";
+        document.getElementsByClassName("image")[0].src = "https://raw.githubusercontent.com/IAmThePSL/ValentinesSite/main/dance.gif";
 
         // remvoe yes button
         document.getElementById("yesButton").remove();
